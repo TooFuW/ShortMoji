@@ -16,7 +16,7 @@ ShortMoji makes it easy to insert Discord emojis anywhere with simple keyboard s
 | `:sk ` | 💀 |
 
 ## Installation
-Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/tag/Latest) !
+Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/latest) !
 
 ## Usage
 Launch ShortMoji and start typing your shortcuts to see your emojis appear automatically ! 😄
