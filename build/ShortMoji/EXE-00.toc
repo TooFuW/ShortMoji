@@ -1,5 +1,5 @@
 ('C:\\Users\\Utilisateur\\Documents\\ShortMoji\\dist\\ShortMoji.exe',
- True,
+ False,
  False,
  False,
  ['C:\\Users\\Utilisateur\\Documents\\ShortMoji\\icon_transparent.ico'],
@@ -263,8 +263,8 @@
  [],
  False,
  False,
- 1734474081,
- [('run.exe',
-   'C:\\Users\\Utilisateur\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
+ 1734474925,
+ [('runw.exe',
+   'C:\\Users\\Utilisateur\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
    'EXECUTABLE')],
  'C:\\Users\\Utilisateur\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll')
