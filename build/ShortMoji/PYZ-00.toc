@@ -1,4 +1,4 @@
-('C:\\Users\\Utilisateur\\Documents\\DiscordAnywhere\\build\\ShortMoji\\PYZ-00.pyz',
+('C:\\Users\\Utilisateur\\Documents\\ShortMoji\\build\\ShortMoji\\PYZ-00.pyz',
  [('__future__',
    'C:\\Users\\Utilisateur\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\__future__.py',
    'PYMODULE'),

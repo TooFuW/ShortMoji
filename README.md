@@ -11,6 +11,9 @@ ShortMoji makes it easy to insert Discord emojis anywhere with simple keyboard s
 | `:su ` | 😎 |
 | `:st ` | 🤩 |
 | `:ne ` | 🤓 |
+| `:fi ` | 🔥 |
+| `:mo ` | 🗿 |
+| `:sk ` | 💀 |
 
 ## Installation
 Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/tag/Latest) !

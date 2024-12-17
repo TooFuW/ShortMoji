@@ -1,60 +1,83 @@
+import os
 import keyboard
 
 # pyinstaller --onefile --windowed --icon=icon_transparent.ico --name="ShortMoji" main.py
 
-# Variable pour stocker les dernières touches pressées
+# Variable to store the last pressed keys
 buffer = []
 
 def on_key(event):
     global buffer
-    # Si l'utilisateur a cliqué sur une touche du clavier
+    # If the user pressed a key on the keyboard
     if event.event_type == 'down':
         buffer.append(event.name)
-        # On ne garde que les 4 derniers caractères
+        # Keep only the last 4 characters
         if len(buffer) > 4:
             buffer.pop(0)
         print(buffer)
-        # Vérifier si le buffer se termine par nos raccourcis
+        # Check if the buffer ends with our shortcuts
         match buffer:
+            case ["esc", "esc", "esc", "esc"]:
+                # Exit the script
+                os._exit(0)
             case [":", "r", "o", "space"]:
-                # Supprimer les 4 caractères du buffer
+                # Remove the last 4 characters from the buffer
                 for _ in range(4):
                     keyboard.press_and_release('backspace')
-                # Insérer l'émoji
+                # Insert the emoji
                 keyboard.write('🤣 ')
             case [":", "j", "o", "space"]:
-                # Supprimer les 4 caractères du buffer
+                # Remove the last 4 characters from the buffer
                 for _ in range(4):
                     keyboard.press_and_release('backspace')
-                # Insérer l'émoji
+                # Insert the emoji
                 keyboard.write('😂 ')
             case [":", "s", "o", "space"]:
-                # Supprimer les 4 caractères du buffer
+                # Remove the last 4 characters from the buffer
                 for _ in range(4):
                     keyboard.press_and_release('backspace')
-                # Insérer l'émoji
+                # Insert the emoji
                 keyboard.write('😭 ')
             case [":", "s", "u", "space"]:
-                # Supprimer les 4 caractères du buffer
+                # Remove the last 4 characters from the buffer
                 for _ in range(4):
                     keyboard.press_and_release('backspace')
-                # Insérer l'émoji
+                # Insert the emoji
                 keyboard.write('😎 ')
             case [":", "s", "t", "space"]:
-                # Supprimer les 4 caractères du buffer
+                # Remove the last 4 characters from the buffer
                 for _ in range(4):
                     keyboard.press_and_release('backspace')
-                # Insérer l'émoji
+                # Insert the emoji
                 keyboard.write('🤩 ')
             case [":", "n", "e", "space"]:
-                # Supprimer les 4 caractères du buffer
+                # Remove the last 4 characters from the buffer
                 for _ in range(4):
                     keyboard.press_and_release('backspace')
-                # Insérer l'émoji
+                # Insert the emoji
                 keyboard.write('🤓 ')
+            case [":", "f", "i", "space"]:
+                # Remove the last 4 characters from the buffer
+                for _ in range(4):
+                    keyboard.press_and_release('backspace')
+                # Insert the emoji
+                keyboard.write('🔥 ')
+            case [":", "m", "o", "space"]:
+                # Remove the last 4 characters from the buffer
+                for _ in range(4):
+                    keyboard.press_and_release('backspace')
+                # Insert the emoji
+                keyboard.write('🗿 ')
+            case [":", "s", "k", "space"]:
+                # Remove the last 4 characters from the buffer
+                for _ in range(4):
+                    keyboard.press_and_release('backspace')
+                # Insert the emoji
+                keyboard.write('💀 ')
+            
 
-# Enregistrer le hook clavier
+# Register the keyboard hook
 keyboard.hook(on_key)
 
-# Maintenir le script en cours d'exécution
+# Keep the script running
 keyboard.wait()
