@@ -78,12 +78,78 @@ def on_key(event):
                 replace_with_emoji("🤭")
             case [":", "t", "h", "i", "space"]:
                 replace_with_emoji("🤔")
-            case [":", "s", "o", "b", "space"]:
-                replace_with_emoji("😭")
+            case [":", "z", "i", "p", "space"]:
+                replace_with_emoji("🤐")
+            case [":", "n", "e", "u", "space"]:
+                replace_with_emoji("😐")
+            case [":", "n", "o", "m", "space"]:
+                replace_with_emoji("😶")
+            case [":", "r", "o", "l", "space"]:
+                replace_with_emoji("🙄")
+            case [":", "f", "a", "c", "space"]:
+                replace_with_emoji("😮‍💨")
+            case [":", "r", "a", "i", "space"]:
+                replace_with_emoji("🤨")
+            case [":", "e", "x", "p", "space"]:
+                replace_with_emoji("😑")
+            case [":", "u", "n", "a", "space"]:
+                replace_with_emoji("😒")
+            case [":", "l", "y", "i", "space"]:
+                replace_with_emoji("🤥")
+            case [":", "r", "e", "l", "space"]:
+                replace_with_emoji("😌")
+            case [":", "s", "l", "e", "space"]:
+                replace_with_emoji("😴")
+            case [":", "p", "e", "n", "space"]:
+                replace_with_emoji("😔")
+            case [":", "d", "r", "o", "space"]:
+                replace_with_emoji("🤤")
+            case [":", "m", "a", "s", "space"]:
+                replace_with_emoji("😷")
+            case [":", "v", "o", "m", "space"]:
+                replace_with_emoji("🤮")
+            case [":", "h", "o", "t", "space"]:
+                replace_with_emoji("🥵")
+            case [":", "w", "o", "o", "space"]:
+                replace_with_emoji("🥴")
+            case [":", "n", "a", "u", "space"]:
+                replace_with_emoji("🤢")
+            case [":", "s", "n", "e", "space"]:
+                replace_with_emoji("🤧")
+            case [":", "c", "o", "l", "space"]:
+                replace_with_emoji("🥶")
+            case [":", "d", "i", "z", "space"]:
+                replace_with_emoji("😵")
+            case [":", "e", "x", "p", "space"]:
+                replace_with_emoji("🤯")
+            case [":", "c", "o", "w", "space"]:
+                replace_with_emoji("🤠")
+            case [":", "d", "i", "s", "space"]:
+                replace_with_emoji("🥸")
+            case [":", "p", "a", "r", "space"]:
+                replace_with_emoji("🥳")
             case [":", "s", "u", "n", "space"]:
                 replace_with_emoji("😎")
+            case [":", "m", "o", "n", "space"]:
+                replace_with_emoji("🧐")
             case [":", "n", "e", "r", "space"]:
                 replace_with_emoji("🤓")
+            case [":", "c", "o", "n", "space"]:
+                replace_with_emoji("😕")
+            case [":", "o", "p", "e", "space"]:
+                replace_with_emoji("😮")
+            case [":", "a", "s", "t", "space"]:
+                replace_with_emoji("😲")
+            case [":", "p", "l", "e", "space"]:
+                replace_with_emoji("🥺")
+            case [":", "a", "n", "g", "space"]:
+                replace_with_emoji("😧")
+            case [":", "c", "r", "y", "space"]:
+                replace_with_emoji("😢")
+            case [":", "s", "c", "r", "space"]:
+                replace_with_emoji("😱")
+            case [":", "s", "o", "b", "space"]:
+                replace_with_emoji("😭")
             case [":", "f", "i", "r", "space"]:
                 replace_with_emoji("🔥")
             case [":", "m", "o", "y", "space"]:
@@ -94,8 +160,6 @@ def on_key(event):
                 replace_with_emoji("❤️")
             case [":", "c", "l", "o", "space"]:
                 replace_with_emoji("🤡")
-            case [":", "d", "r", "o", "space"]:
-                replace_with_emoji("🤤")
             case [":", "g", "o", "a", "space"]:
                 replace_with_emoji("🐐")
             case [":", "t", "u", "p", "space"]:
@@ -104,8 +168,6 @@ def on_key(event):
                 replace_with_emoji("🙏")
             case [":", "s", "p", "a", "space"]:
                 replace_with_emoji("✨")
-            case [":", "p", "l", "e", "space"]:
-                replace_with_emoji("🥺")
 
 # Register the keyboard hook
 keyboard.hook(on_key)

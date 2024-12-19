@@ -1,10 +1,11 @@
 # ShortMoji [:🤓]
 
-ShortMoji makes it easy to insert Discord emojis anywhere with simple keyboard shortcuts. 🔥
+ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts (similar to Discord's emoji system). 🔥
 
 ## Keyboard Shortcuts
 
-### 37 SHORTCUTS FOR 37 EMOJIS !
+<details>
+<summary>70 SHORTCUTS FOR 70 DIFFERENT EMOJIS ! 🤪</summary>
 
 | Shortcut | Émoji |
 |-|-|
@@ -30,20 +31,52 @@ ShortMoji makes it easy to insert Discord emojis anywhere with simple keyboard s
 | `:shu ` | 🤫 |
 | `:han ` | 🤭 |
 | `:thi ` | 🤔 |
-| `:sob ` | 😭 |
+| `:zip ` | 🤐 |
+| `:neu ` | 😐 |
+| `:nom ` | 😶 |
+| `:rol ` | 🙄 |
+| `:fac ` | 😮‍💨 |
+| `:rai ` | 🤨 |
+| `:exp ` | 😑 |
+| `:una ` | 😒 |
+| `:lyi ` | 🤥 |
+| `:rel ` | 😌 |
+| `:sle ` | 😴 |
+| `:pen ` | 😔 |
+| `:dro ` | 🤤 |
+| `:mas ` | 😷 |
+| `:vom ` | 🤮 |
+| `:hot ` | 🥵 |
+| `:woo ` | 🥴 |
+| `:nau ` | 🤢 |
+| `:sne ` | 🤧 |
+| `:col ` | 🥶 |
+| `:diz ` | 😵 |
+| `:exp ` | 🤯 |
+| `:cow ` | 🤠 |
+| `:dis ` | 🥸 |
+| `:par ` | 🥳 |
 | `:sun ` | 😎 |
+| `:mon ` | 🧐 |
 | `:ner ` | 🤓 |
+| `:con ` | 😕 |
+| `:ope ` | 😮 |
+| `:ast ` | 😲 |
+| `:ple ` | 🥺 |
+| `:ang ` | 😧 |
+| `:cry ` | 😢 |
+| `:scr ` | 😱 |
+| `:sob ` | 😭 |
 | `:fir ` | 🔥 |
 | `:moy ` | 🗿 |
 | `:sku ` | 💀 |
 | `:hea ` | ❤️ |
 | `:clo ` | 🤡 |
-| `:dro ` | 🤤 |
 | `:goa ` | 🐐 |
 | `:tup ` | 👍 |
 | `:pra ` | 🙏 |
 | `:spa ` | ✨ |
-| `:ple ` | 🥺 |
+</details>
 
 ## Installation
 Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/latest) ! 🤩
@@ -51,11 +84,11 @@ Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/
 ## Usage and Features
 Launch ShortMoji and start typing your shortcuts to see your emojis appear automatically ! ✨
 
-- Easy shortcuts : If you are already using Discord then it should be easy for you to start using ShortMoji, and else GO LEARN THE SHORTCUTS ! 🗿
+- **Easy shortcuts** : If you are already using Discord then it should be easy for you to start using ShortMoji, else GO LEARN THE SHORTCUTS ! 🗿
 
-- Fast correction : If you mispelled a shortcut, you can rewrite it (if you do it instantly) and the emoji will still replace the shortcut ! 😎
+- **Fast correction** : If you misspell a shortcut, you can retype it (if you do it right away) and the emoji will still replace the shortcut ! 😎
 
-- For the nerds : ShortMoji is consuming nearly nothing and you can easily close it by clicking 2 times on your Escape key ! 🤓
+- **For the nerds** : ShortMoji consumes almost nothing and you can easily close the program by clicking your Escape key twice ! 🤓
 
 ## Licence
 Free project under the [MIT license](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE.txt). Do what you want with it! 🚀
