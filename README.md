@@ -37,7 +37,6 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 | `:rol ` | 🙄 |
 | `:fac ` | 😮‍💨 |
 | `:rai ` | 🤨 |
-| `:exp ` | 😑 |
 | `:una ` | 😒 |
 | `:lyi ` | 🤥 |
 | `:rel ` | 😌 |
@@ -57,7 +56,6 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 | `:dis ` | 🥸 |
 | `:par ` | 🥳 |
 | `:sun ` | 😎 |
-| `:mon ` | 🧐 |
 | `:ner ` | 🤓 |
 | `:con ` | 😕 |
 | `:ope ` | 😮 |
@@ -66,20 +64,42 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 | `:ang ` | 😧 |
 | `:cry ` | 😢 |
 | `:scr ` | 😱 |
+| `:per ` | 😣 |
+| `:tir ` | 😫 |
+| `:wor ` | 😟 |
+| `:fro ` | ☹️ |
+| `:hus ` | 😯 |
+| `:flu ` | 😳 |
+| `:fea ` | 😨 |
 | `:sob ` | 😭 |
-| `:fir ` | 🔥 |
-| `:moy ` | 🗿 |
+| `:wea ` | 😩 |
+| `:yaw ` | 🥱 |
+| `:tri ` | 😤 |
 | `:sku ` | 💀 |
-| `:hea ` | ❤️ |
+| `:pou ` | 😡 |
+| `:cur ` | 🤬 |
+| `:imp ` | 👿 |
+| `:poo ` | 💩 |
+| `:jap ` | 👹 |
+| `:gho ` | 👻 |
 | `:clo ` | 🤡 |
-| `:goa ` | 🐐 |
+| `:ali ` | 👽 |
+| `:rob ` | 🤖 |
+| `:see ` | 🙈 |
+| `:spe ` | 🙊 |
+| `:hea ` | ❤️ |
 | `:tup ` | 👍 |
 | `:pra ` | 🙏 |
+| `:goa ` | 🐐 |
+| `:fir ` | 🔥 |
+| `:moy ` | 🗿 |
 | `:spa ` | ✨ |
 </details>
 
 ## Installation
 Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/latest) ! 🤩
+
+*Your antivirus might flag the program as a virus on first run but it's a false positive (you can check the code, everything is in main.py) don't worry !* 😅
 
 ## Usage and Features
 Launch ShortMoji and start typing your shortcuts to see your emojis appear automatically ! ✨
