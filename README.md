@@ -5,7 +5,7 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 ## Keyboard Shortcuts
 
 <details>
-<summary>70 SHORTCUTS FOR 70 DIFFERENT EMOJIS ! 🤪</summary>
+<summary>89 SHORTCUTS FOR 89 DIFFERENT EMOJIS ! 🤪</summary>
 
 | Shortcut | Émoji |
 |-|-|
