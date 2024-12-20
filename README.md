@@ -1,11 +1,16 @@
 # ShortMoji [:🤓]
 
+[![Latest Release](https://img.shields.io/github/release/TooFuW/ShortMoji)](https://github.com/TooFuW/ShortMoji/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/TooFuW/ShortMoji)](https://github.com/TooFuW/ShortMoji/commits/main)
+[![MIT License](https://badgen.net/github/license/micromatch/micromatch)](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE.txt)
+[![GitHub stars](https://img.shields.io/github/stars/TooFuW/ShortMoji)](https://github.com/TooFuW/ShortMoji/stargazers)
+
 ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts (similar to Discord's emoji system). 🔥
 
 ## Keyboard Shortcuts
 
 <details>
-<summary>89 SHORTCUTS FOR 89 DIFFERENT EMOJIS ! 🤪</summary>
+<summary>103 SHORTCUTS FOR 103 DIFFERENT EMOJIS ! 🤪</summary>
 
 | Shortcut | Émoji |
 |-|-|
@@ -22,6 +27,7 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 | `:blu ` | 😊 |
 | `:3he ` | 🥰 |
 | `:sta ` | 🤩 |
+| `:tea ` | 🥲 |
 | `:kis ` | 😘 |
 | `:yum ` | 😋 |
 | `:stu ` | 😜 |
@@ -44,9 +50,12 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 | `:pen ` | 😔 |
 | `:dro ` | 🤤 |
 | `:mas ` | 😷 |
+| `:ban ` | 🤕 |
 | `:vom ` | 🤮 |
 | `:hot ` | 🥵 |
 | `:woo ` | 🥴 |
+| `:spi ` | 😵‍💫 |
+| `:the ` | 🤒 |
 | `:nau ` | 🤢 |
 | `:sne ` | 🤧 |
 | `:col ` | 🥶 |
@@ -79,12 +88,22 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 | `:pou ` | 😡 |
 | `:cur ` | 🤬 |
 | `:imp ` | 👿 |
+| `:cro ` | ☠️ |
 | `:poo ` | 💩 |
-| `:jap ` | 👹 |
+| `:ogr ` | 👹 |
 | `:gho ` | 👻 |
+| `:inv ` | 👾 |
 | `:clo ` | 🤡 |
+| `:gob ` | 👺 |
 | `:ali ` | 👽 |
 | `:rob ` | 🤖 |
+| `:csm ` | 😺 |
+| `:cjo ` | 😹 |
+| `:csc ` | 🙀 |
+| `:cpo ` | 😾 |
+| `:che ` | 😻 |
+| `:cki ` | 😽 |
+| `:ccr ` | 😿 |
 | `:see ` | 🙈 |
 | `:spe ` | 🙊 |
 | `:hea ` | ❤️ |
@@ -97,13 +116,13 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 </details>
 
 ## Installation
-Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/latest) ! 🤩
+**Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/latest) !** 🤩
 
 If you want the program to launch automatically when you turn on your computer press `⊞ Win`+`R` and type `shell:startup`.  
-Then create a shortcut (`Right-click` -> `New` -> `Shortcut`) and paste the path to ShortMoji.exe (for example `C:\Users\User\Downloads\ShortMoji.exe`) and that's it, you won't have to open it manually anymore !  
+Then create a shortcut (`Right-click` -> `New` -> `Shortcut`) and paste the path to `ShortMoji.exe` (for example `C:\Users\User\Downloads\ShortMoji.exe`) and that's it, you won't have to open it manually anymore !  
 (Only for Windows, I don't even know if the program works on MacOS)
 
-*Your antivirus might flag the program as a virus on first run but it's a false positive (you can check the code, everything is in main.py) don't worry !* 😅
+*Your antivirus might flag the program as a virus on the first run but it's a false positive (you can check the code, everything is in main.py) don't worry !* 😅
 
 ## Usage and Features
 Launch ShortMoji and start typing your shortcuts to see your emojis appear automatically ! ✨
@@ -112,7 +131,11 @@ Launch ShortMoji and start typing your shortcuts to see your emojis appear autom
 
 - **Fast correction** : If you misspell a shortcut, you can retype it (if you do it right away) and the emoji will still replace the shortcut ! 😎
 
-- **For the nerds** : ShortMoji consumes almost nothing and you can easily close the program by clicking your Escape key twice ! 🤓
+- **For the nerds** : ShortMoji is a lightweight utility program that doesn't slow down your system. And if you want, you can easily close the program by clicking your Escape key twice ! 🤓
+
+- **Audience** : Whether you're a developper looking for efficiency, a casual user who enjoys using emojis or a Discord user who's already familiar with emoji shortcuts, ShortMoji is the perfect tool for you ! 🤠
+
+- **Support** : I'm committed to regularly update ShortMoji with new emojis and features. Contributions are welcome, submit pull requests or suggest ideas to help it grow ! 🔥
 
 ## Licence
 Free project under the [MIT license](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE.txt). Do what you want with it! 🚀
