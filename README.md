@@ -99,6 +99,10 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 ## Installation
 Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/latest) ! 🤩
 
+If you want the program to launch automatically when you turn on your computer press `⊞ Win`+`R` and type `shell:startup`.
+Then create a shortcut (Right-click -> New -> Shortcut) and paste the path to ShortMoji.exe (for example `C:\Users\User\Downloads\ShortMoji.exe`) and that's it, you won't have to open it manually anymore !
+(Only for Windows, I don't even know if the program works on MacOS)
+
 *Your antivirus might flag the program as a virus on first run but it's a false positive (you can check the code, everything is in main.py) don't worry !* 😅
 
 ## Usage and Features
