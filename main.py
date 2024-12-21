@@ -1,18 +1,21 @@
 import os
 import keyboard
 
-# pyinstaller --onefile --windowed --icon=icon_transparent.ico --name="ShortMoji" main.py
+# pyinstaller --onefile --windowed --icon=img/icon.ico --name="ShortMoji" main.py
 
 # Variable to store the last pressed keys
 buffer = []
 
 # Function to be called to when we want to replace the text with an emoji
 def replace_with_emoji(emoji: str):
+    global buffer
     # Delete the last 5 characters
-    for _ in range(5):
-        keyboard.press_and_release("backspace")
+    for _ in range(len(buffer)):
+        keyboard.press_and_release("backspace") 
     # Insert the emoji
     keyboard.write(f"{emoji} ")
+    # Clear the buffer
+    buffer = []
 
 # Function to be called when a key is pressed
 def on_key(event):
@@ -26,207 +29,261 @@ def on_key(event):
             buffer.pop()
         elif len(buffer) > 0 and buffer[-1] == "backspace":
             buffer.pop()
-        # Keep only the last 5 characters
-        if len(buffer) > 5:
+        # Keep only up to 7 characters if it looks like a shortcut
+        if len(buffer) > 7 or (len(buffer) > 0 and (buffer[0] != ":" and buffer[0] != "esc")):
             buffer.pop(0)
         # Close the program if the user clicks 2 times on the escape key
         if buffer[-2::] == ["esc", "esc"]:
             os._exit(0)
-        # Check if the buffer ends with our shortcuts
+        # Check if the buffer ends with one of the shortcuts
         match buffer:
-            case [":", "l", "a", "u", "space"]:
-                replace_with_emoji("😆")
-            case [":", "r", "o", "f", "space"]:
-                replace_with_emoji("🤣")
-            case [":", "s", "l", "i", "space"]:
-                replace_with_emoji("🙂")
-            case [":", "w", "i", "n", "space"]:
-                replace_with_emoji("😉")
-            case [":", "i", "n", "n", "space"]:
-                replace_with_emoji("😇")
-            case [":", "s", "m", "i", "space"]:
-                replace_with_emoji("😃")
             case [":", "g", "r", "i", "space"]:
+                replace_with_emoji("😀")
+            case [":", "s", "m", "i", "space"]:
+                replace_with_emoji("😄")
+            case [":", "l", "a", "space"]:
+                replace_with_emoji("😆")
+            case [":", "r", "o", "space"]:
+                replace_with_emoji("🤣")
+            case [":", "s", "l", "space"]:
+                replace_with_emoji("🙂")
+            case [":", "w", "i", "space"]:
+                replace_with_emoji("😉")
+            case [":", "i", "n", "space"]:
+                replace_with_emoji("😇")
+            case [":", "s", "m", "space"]:
+                replace_with_emoji("😃")
+            case [":", "g", "r", "space"]:
                 replace_with_emoji("😁")
-            case [":", "s", "w", "e", "space"]:
+            case [":", "s", "w", "space"]:
                 replace_with_emoji("😅")
-            case [":", "j", "o", "y", "space"]:
+            case [":", "j", "o", "space"]:
                 replace_with_emoji("😂")
-            case [":", "u", "p", "s", "space"]:
+            case [":", "u", "p", "space"]:
                 replace_with_emoji("🙃")
-            case [":", "b", "l", "u", "space"]:
+            case [":", "b", "l", "space"]:
                 replace_with_emoji("😊")
-            case [":", "3", "h", "e", "space"]:
+            case [":", "3", "h", "space"]:
                 replace_with_emoji("🥰")
-            case [":", "s", "t", "a", "space"]:
+            case [":", "s", "t", "space"]:
                 replace_with_emoji("🤩")
-            case [":", "t", "e", "a", "space"]:
-                replace_with_emoji("🥲")
             case [":", "k", "i", "s", "space"]:
+                replace_with_emoji("😗")
+            case [":", "k", "i", "s", "c", "space"]:
+                replace_with_emoji("😚")
+            case [":", "t", "e", "space"]:
+                replace_with_emoji("🥲")
+            case [":", "h", "e", "a", "space"]:
+                replace_with_emoji("🥲")
+            case [":", "k", "i", "space"]:
                 replace_with_emoji("😘")
-            case [":", "y", "u", "m", "space"]:
+            case [":", "r", "e", "l", "space"]:
+                replace_with_emoji("☺️")
+            case [":", "k", "i", "s", "s", "space"]:
+                replace_with_emoji("😙")
+            case [":", "y", "u", "space"]:
                 replace_with_emoji("😋")
-            case [":", "s", "t", "u", "space"]:
+            case [":", "s", "t", "u", "w", "space"]:
                 replace_with_emoji("😜")
-            case [":", "z", "a", "n", "space"]:
+            case [":", "s", "t", "u", "c", "space"]:
+                replace_with_emoji("😝")
+            case [":", "s", "t", "u", "space"]:
+                replace_with_emoji("😛")
+            case [":", "z", "a", "space"]:
                 replace_with_emoji("🤪")
-            case [":", "m", "o", "n", "space"]:
+            case [":", "m", "o", "space"]:
                 replace_with_emoji("🤑")
-            case [":", "h", "u", "g", "space"]:
+            case [":", "h", "u", "space"]:
                 replace_with_emoji("🤗")
-            case [":", "s", "h", "u", "space"]:
+            case [":", "s", "h", "space"]:
                 replace_with_emoji("🤫")
-            case [":", "h", "a", "n", "space"]:
+            case [":", "h", "a", "space"]:
                 replace_with_emoji("🤭")
-            case [":", "t", "h", "i", "space"]:
+            case [":", "t", "h", "space"]:
                 replace_with_emoji("🤔")
-            case [":", "z", "i", "p", "space"]:
+            case [":", "z", "i", "space"]:
                 replace_with_emoji("🤐")
-            case [":", "n", "e", "u", "space"]:
+            case [":", "n", "e", "r", "space"]:
                 replace_with_emoji("😐")
-            case [":", "n", "o", "m", "space"]:
+            case [":", "n", "o", "space"]:
+                replace_with_emoji("😶")
+            case [":", "s", "m", "i", "r", "space"]:
                 replace_with_emoji("😶")
             case [":", "r", "o", "l", "space"]:
                 replace_with_emoji("🙄")
-            case [":", "f", "a", "c", "space"]:
+            case [":", "f", "a", "space"]:
                 replace_with_emoji("😮‍💨")
-            case [":", "r", "a", "i", "space"]:
+            case [":", "r", "a", "space"]:
                 replace_with_emoji("🤨")
-            case [":", "u", "n", "a", "space"]:
+            case [":", "e", "x", "p", "space"]:
+                replace_with_emoji("😑")
+            case [":", "f", "a", "c", "space"]:
+                replace_with_emoji("😶‍🌫️")
+            case [":", "u", "n", "space"]:
                 replace_with_emoji("😒")
-            case [":", "l", "y", "i", "space"]:
+            case [":", "g", "r", "i", "m", "space"]:
+                replace_with_emoji("😬")
+            case [":", "l", "y", "space"]:
                 replace_with_emoji("🤥")
-            case [":", "r", "e", "l", "space"]:
+            case [":", "r", "e", "space"]:
                 replace_with_emoji("😌")
+            case [":", "s", "l", "e", "e","space"]:
+                replace_with_emoji("😪")
             case [":", "s", "l", "e", "space"]:
                 replace_with_emoji("😴")
-            case [":", "p", "e", "n", "space"]:
+            case [":", "p", "e", "space"]:
                 replace_with_emoji("😔")
-            case [":", "d", "r", "o", "space"]:
+            case [":", "d", "r", "space"]:
                 replace_with_emoji("🤤")
-            case [":", "m", "a", "s", "space"]:
+            case [":", "m", "a", "space"]:
                 replace_with_emoji("😷")
-            case [":", "b", "a", "n", "space"]:
+            case [":", "b", "a", "space"]:
                 replace_with_emoji("🤕")
-            case [":", "v", "o", "m", "space"]:
+            case [":", "v", "o", "space"]:
                 replace_with_emoji("🤮")
-            case [":", "h", "o", "t", "space"]:
+            case [":", "h", "o", "space"]:
                 replace_with_emoji("🥵")
-            case [":", "w", "o", "o", "space"]:
+            case [":", "w", "o", "space"]:
                 replace_with_emoji("🥴")
-            case [":", "s", "p", "i", "space"]:
+            case [":", "s", "p", "space"]:
                 replace_with_emoji("😵‍💫")
             case [":", "t", "h", "e", "space"]:
                 replace_with_emoji("🤒")
-            case [":", "n", "a", "u", "space"]:
+            case [":", "n", "a", "space"]:
                 replace_with_emoji("🤢")
-            case [":", "s", "n", "e", "space"]:
+            case [":", "s", "n", "space"]:
                 replace_with_emoji("🤧")
-            case [":", "c", "o", "l", "space"]:
+            case [":", "c", "o", "space"]:
                 replace_with_emoji("🥶")
-            case [":", "d", "i", "z", "space"]:
+            case [":", "d", "i", "space"]:
                 replace_with_emoji("😵")
-            case [":", "e", "x", "p", "space"]:
+            case [":", "e", "x", "space"]:
                 replace_with_emoji("🤯")
             case [":", "c", "o", "w", "space"]:
                 replace_with_emoji("🤠")
             case [":", "d", "i", "s", "space"]:
                 replace_with_emoji("🥸")
-            case [":", "p", "a", "r", "space"]:
+            case [":", "p", "a", "space"]:
                 replace_with_emoji("🥳")
-            case [":", "s", "u", "n", "space"]:
+            case [":", "s", "u", "space"]:
                 replace_with_emoji("😎")
-            case [":", "n", "e", "r", "space"]:
+            case [":", "n", "e", "space"]:
                 replace_with_emoji("🤓")
+            case [":", "m", "o", "n", "space"]:
+                replace_with_emoji("🧐")
             case [":", "c", "o", "n", "space"]:
                 replace_with_emoji("😕")
-            case [":", "o", "p", "e", "space"]:
+            case [":", "s", "l", "i", "space"]:
+                replace_with_emoji("🙁")
+            case [":", "o", "p", "space"]:
                 replace_with_emoji("😮")
-            case [":", "a", "s", "t", "space"]:
+            case [":", "a", "s", "space"]:
                 replace_with_emoji("😲")
-            case [":", "p", "l", "e", "space"]:
+            case [":", "p", "l", "space"]:
                 replace_with_emoji("🥺")
-            case [":", "a", "n", "g", "space"]:
+            case [":", "a", "n", "space"]:
                 replace_with_emoji("😧")
-            case [":", "c", "r", "y", "space"]:
+            case [":", "c", "o", "l", "space"]:
+                replace_with_emoji("😰")
+            case [":", "c", "r", "space"]:
                 replace_with_emoji("😢")
-            case [":", "s", "c", "r", "space"]:
+            case [":", "s", "c", "space"]:
                 replace_with_emoji("😱")
             case [":", "p", "e", "r", "space"]:
                 replace_with_emoji("😣")
-            case [":", "t", "i", "r", "space"]:
+            case [":", "s", "w", "e", "space"]:
+                replace_with_emoji("😓")
+            case [":", "t", "i", "space"]:
                 replace_with_emoji("😫")
             case [":", "w", "o", "r", "space"]:
                 replace_with_emoji("😟")
-            case [":", "f", "r", "o", "space"]:
+            case [":", "f", "r", "space"]:
                 replace_with_emoji("☹️")
             case [":", "h", "u", "s", "space"]:
                 replace_with_emoji("😯")
-            case [":", "f", "l", "u", "space"]:
+            case [":", "f", "l", "space"]:
                 replace_with_emoji("😳")
-            case [":", "f", "e", "a", "space"]:
+            case [":", "f", "r", "o", "space"]:
+                replace_with_emoji("😦")
+            case [":", "f", "e", "space"]:
                 replace_with_emoji("😨")
-            case [":", "s", "o", "b", "space"]:
+            case [":", "d", "i", "s", "r", "space"]:
+                replace_with_emoji("😥")
+            case [":", "s", "o", "space"]:
                 replace_with_emoji("😭")
-            case [":", "w", "e", "a", "space"]:
+            case [":", "c", "o", "n", "f", "space"]:
+                replace_with_emoji("😖")
+            case [":", "d", "i", "s", "a", "space"]:
+                replace_with_emoji("😞")
+            case [":", "w", "e", "space"]:
                 replace_with_emoji("😩")
-            case [":", "y", "a", "w", "space"]:
+            case [":", "y", "a", "space"]:
                 replace_with_emoji("🥱")
-            case [":", "t", "r", "i", "space"]:
+            case [":", "t", "r", "space"]:
                 replace_with_emoji("😤")
-            case [":", "s", "k", "u", "space"]:
+            case [":", "a", "n", "g", "space"]:
+                replace_with_emoji("😠")
+            case [":", "i", "m", "p", "s", "space"]:
+                replace_with_emoji("😈")
+            case [":", "s", "k", "space"]:
                 replace_with_emoji("💀")
-            case [":", "p", "o", "u", "space"]:
+            case [":", "p", "o", "space"]:
                 replace_with_emoji("😡")
-            case [":", "c", "u", "r", "space"]:
+            case [":", "c", "u", "space"]:
                 replace_with_emoji("🤬")
-            case [":", "i", "m", "p", "space"]:
+            case [":", "i", "m", "space"]:
                 replace_with_emoji("👿")
             case [":", "c", "r", "o", "space"]:
                 replace_with_emoji("☠️")
             case [":", "p", "o", "o", "space"]:
                 replace_with_emoji("💩")
-            case [":", "o", "g", "r", "space"]:
+            case [":", "o", "g", "space"]:
                 replace_with_emoji("👹")
-            case [":", "g", "h", "o", "space"]:
+            case [":", "g", "h", "space"]:
                 replace_with_emoji("👻")
             case [":", "i", "n", "v", "space"]:
                 replace_with_emoji("👾")
-            case [":", "c", "l", "o", "space"]:
+            case [":", "c", "l", "space"]:
                 replace_with_emoji("🤡")
             case [":", "g", "o", "b", "space"]:
                 replace_with_emoji("👺")
-            case [":", "a", "l", "i", "space"]:
+            case [":", "a", "l", "space"]:
                 replace_with_emoji("👽")
             case [":", "r", "o", "b", "space"]:
                 replace_with_emoji("🤖")
-            case [":", "c", "s", "m", "space"]:
+            case [":", "c", "s", "space"]:
                 replace_with_emoji("😺")
-            case [":", "c", "j", "o", "space"]:
+            case [":", "c", "j", "space"]:
                 replace_with_emoji("😹")
+            case [":", "c", "s", "m", "space"]:
+                replace_with_emoji("😼")
             case [":", "c", "s", "c", "space"]:
                 replace_with_emoji("🙀")
-            case [":", "c", "p", "o", "space"]:
+            case [":", "c", "p", "space"]:
                 replace_with_emoji("😾")
-            case [":", "c", "h", "e", "space"]:
+            case [":", "c", "s", "m", "i", "space"]:
+                replace_with_emoji("😸")
+            case [":", "c", "h", "space"]:
                 replace_with_emoji("😻")
-            case [":", "c", "k", "i", "space"]:
+            case [":", "c", "k", "space"]:
                 replace_with_emoji("😽")
-            case [":", "c", "c", "r", "space"]:
+            case [":", "c", "c", "space"]:
                 replace_with_emoji("😿")
-            case [":", "s", "e", "e", "space"]:
+            case [":", "s", "e", "space"]:
                 replace_with_emoji("🙈")
             case [":", "s", "p", "e", "space"]:
                 replace_with_emoji("🙊")
-            case [":", "h", "e", "a", "space"]:
+            case [":", "h", "e", "a", "r", "space"]:
+                replace_with_emoji("🙉")
+            case [":", "h", "e", "space"]:
                 replace_with_emoji("❤️")
-            case [":", "t", "u", "p", "space"]:
+            case [":", "t", "u", "space"]:
                 replace_with_emoji("👍")
-            case [":", "p", "r", "a", "space"]:
+            case [":", "p", "r", "space"]:
                 replace_with_emoji("🙏")
-            case [":", "g", "o", "a", "space"]:
+            case [":", "g", "o", "space"]:
                 replace_with_emoji("🐐")
-            case [":", "f", "i", "r", "space"]:
+            case [":", "f", "i", "space"]:
                 replace_with_emoji("🔥")
             case [":", "m", "o", "y", "space"]:
                 replace_with_emoji("🗿")
