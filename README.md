@@ -2,7 +2,7 @@
 
 [![Latest Release](https://img.shields.io/github/release/TooFuW/ShortMoji)](https://github.com/TooFuW/ShortMoji/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/TooFuW/ShortMoji)](https://github.com/TooFuW/ShortMoji/commits/main)
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE.txt)
+[![GNU License](https://img.shields.io/badge/License-GNU-blue.svg)](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/TooFuW/ShortMoji)](https://github.com/TooFuW/ShortMoji/stargazers)
 
 ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts (similar to Discord's emoji system). 🔥
