@@ -165,4 +165,4 @@ Launch ShortMoji and start typing your shortcuts to see your emojis appear autom
 - **Support** : I'm committed to regularly update ShortMoji with new emojis and features. Contributions are welcome, submit pull requests or suggest ideas to help it grow ! 🔥
 
 ## Licence
-Free project under the [MIT license](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE.txt). Do what you want with it! 🚀
+Free project under the [GNU license](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE). Do what you want with it! 🚀
