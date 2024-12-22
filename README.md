@@ -173,3 +173,8 @@ Launch ShortMoji and start typing your shortcuts to see your emojis appear autom
 
 ## Licence
 Free project under the [GNU license](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE). Do what you want with it! 🚀
+
+## Roadmap
+- Add a way for the user to know that the program is running
+- Update the README with a GIF to show an example of the program being used
+- Add a special characters shortcut support
