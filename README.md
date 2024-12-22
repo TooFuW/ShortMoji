@@ -151,6 +151,13 @@ Then create a shortcut (`Right-click` -> `New` -> `Shortcut`) and paste the path
 
 *Your antivirus might flag the program as a virus on the first run but it's a false positive (you can check the code, everything is in main.py) don't worry !* 😅
 
+## How to use it
+Type a shortcut from the list [HERE](https://github.com/TooFuW/ShortMoji?tab=readme-ov-file#keyboard-shortcuts), press `space` and it will automatically be replaced by the corresponding emoji, it's that simple ! 🥳
+
+*The program may not always work in system applications (e.g. Task Manager) because Windows blocks keyboard access at that time*
+
+If you want to close the program, just press your `escape` key twice !
+
 ## Usage and Features
 Launch ShortMoji and start typing your shortcuts to see your emojis appear automatically ! ✨
 
