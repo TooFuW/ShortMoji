@@ -10,7 +10,7 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 ## Keyboard Shortcuts
 
 <details>
-<summary>(Click here to see the full list) 137 SHORTCUTS FOR 137 DIFFERENT EMOJIS ! 🤪</summary>
+<summary>(Click here to see the full list) 126 SHORTCUTS FOR 126 DIFFERENT EMOJIS ! 🤪</summary>
 
 | Shortcut | Émoji |
 |-|-|
@@ -145,18 +145,45 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 ## Installation
 **Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/latest) !** 🤩
 
-If you want the program to launch automatically when you turn on your computer press `⊞ Win`+`R` and type `shell:startup`.  
-Then create a shortcut (`Right-click` -> `New` -> `Shortcut`) and paste the path to `ShortMoji.exe` (for example `C:\Users\User\Downloads\ShortMoji.exe`) and that's it, you won't have to open it manually anymore !  
-(Only for Windows, I don't even know if the program works on MacOS)
+*If you are on MacOS or Linux I don't have an executable for you (yet !) but you can still execute the python program !*
+
+How to automatically launch ShortMoji on startup:
+- **Windows** :  
+Press `⊞ Win`+`R` and type `shell:startup`.  
+Then create a shortcut (`Right-click` -> `New` -> `Shortcut`),  
+And paste the path to `ShortMoji.exe` (for example `C:\Users\User\Downloads\ShortMoji.exe`).  
+Click `Enter`.
+- **MacOS** :  
+Click the Apple logo in the top left corner and select `System Preferences`.  
+Click on `Users & Groups`.  
+Select the user account you want to add the application to.  
+Click on `Login Items`.  
+Click the `+` button at the bottom of the list.  
+Navigate to the location of `ShortMoji.app` (e.g. `Applications/ShortMoji.app`) and select it.  
+Click `Add`.
+- **Linux** :  
+Open a terminal and navigate to the `~/.config/autostart` directory.  
+Create a new file called `shortmoji.desktop` with the following contents:  
+    ```
+    [Desktop Entry]
+    Type=Application
+    Exec=/path/to/ShortMoji
+    Hidden=false
+    NoDisplay=false
+    X-GNOME-Autostart-enabled=true
+    ```
+    Replace `/path/to/shortmoji` with the path to the `ShortMoji` executable.
 
 *Your antivirus might flag the program as a virus on the first run but it's a false positive (you can check the code, everything is in main.py) don't worry !* 😅
 
 ## How to use it
 Type a shortcut from the list [HERE](https://github.com/TooFuW/ShortMoji?tab=readme-ov-file#keyboard-shortcuts), press `space` and it will automatically be replaced by the corresponding emoji, it's that simple ! 🥳
 
-*The program may not always work in system applications (e.g. Task Manager) because Windows blocks keyboard access at that time*
+![Gif](https://github.com/TooFuW/ShortMoji/blob/main/img/ShortMojiGif.gif)
 
-If you want to close the program, just press your `escape` key twice !
+*The program may not always work in system applications (e.g. Task Manager) because the OS blocks keyboard access at that time*
+
+**If you want to close the program, just press your `escape` key twice !**
 
 ## Usage and Features
 Launch ShortMoji and start typing your shortcuts to see your emojis appear automatically ! ✨
@@ -173,8 +200,3 @@ Launch ShortMoji and start typing your shortcuts to see your emojis appear autom
 
 ## Licence
 Free project under the [GNU license](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE). Do what you want with it! 🚀
-
-## Roadmap
-- Program in the system tray.
-- Special characters shortcut support.
-- MacOS support.
