@@ -145,7 +145,7 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 ## Installation
 **Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/latest) !** 🤩
 
-<u>If you are on MacOS or Linux you will have to run the python file main.py because the executable will not work :</u>
+<u>If you are on MacOS or Linux you will have to run the python file `main.py` because the executable will not work :</u>
 
 Make sure `Python 3.12.7` is installed on your system. You can check your Python version with `python3 --version`.  
 - **MacOS** :  
@@ -167,6 +167,9 @@ On **Fedora** type `sudo dnf install python3.12`.
     If the latest version is not available via your package manager, you can install Python manually :  
     Download the latest source code from [python.org](https://www.python.org/downloads/).  
     Follow the instructions for compiling and installing.
+
+    Install the required libraries using pip : `pip install pyautogui pynput pyperclip`.  
+    Then run the following script in the same directory as `main.py` : `python3 main.py`.  
 
 <u>How to automatically launch ShortMoji on startup :</u>
 - **Windows** :  
