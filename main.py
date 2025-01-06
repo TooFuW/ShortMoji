@@ -8,15 +8,24 @@ import pystray
 from PIL import Image
 import webbrowser
 
-# pyinstaller --onefile --windowed --icon=img/icon.ico --name="ShortMoji" --add-data "emojis.json:." main.py
+# pyinstaller --onefile --windowed --icon=img/icon.ico --name="ShortMoji" --add-data "emojis.json:." --add-data "img/icon.png:img" main.py
+
+# Dynamic path
+if getattr(sys, 'frozen', False):
+    base_path = sys._MEIPASS
+else:
+    base_path = os.path.abspath(".")
 
 # Create the tray icon
-image = Image.open('img/icon.png')
+icon_path = os.path.join(base_path, 'img/icon.png')
+image = Image.open(icon_path)
 
 def after_click(icon, query):
     if str(query) == "Github Repository":
         webbrowser.open("https://github.com/TooFuW/ShortMoji")
     elif str(query) == "Exit":
+        kboard.tap(Key.esc)
+        kboard.tap(Key.esc)
         icon.stop()
 
 icon = pystray.Icon("ShortMoji", image, "ShortMoji", menu=pystray.Menu(
@@ -31,11 +40,6 @@ buffer = []
 # Initialize the keyboard controller
 kboard = Controller()
 
-# Dynamic path for the json
-if getattr(sys, 'frozen', False):
-    base_path = sys._MEIPASS
-else:
-    base_path = os.path.abspath(".")
 # Get the emojis list
 json_path = os.path.join(base_path, 'emojis.json')
 with open(json_path, "r", encoding="utf-8") as file:
@@ -78,6 +82,7 @@ def on_press(key):
         buffer = []
     # Close the program if the user clicks 2 times on the escape key
     if buffer[-2::] == ["esc", "esc"]:
+        icon.stop()
         return False
     # Check if the buffer ends with one of the shortcuts
     if len(buffer) > 0 and buffer[-1] == "space":
