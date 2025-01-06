@@ -4,8 +4,26 @@ from pynput import keyboard
 from pynput.keyboard import Key, Controller
 import pyperclip
 import sys, os
+import pystray
+from PIL import Image
+import webbrowser
 
 # pyinstaller --onefile --windowed --icon=img/icon.ico --name="ShortMoji" --add-data "emojis.json:." main.py
+
+# Create the tray icon
+image = Image.open('img/icon.png')
+
+def after_click(icon, query):
+    if str(query) == "Github Repository":
+        webbrowser.open("https://github.com/TooFuW/ShortMoji")
+    elif str(query) == "Exit":
+        icon.stop()
+
+icon = pystray.Icon("ShortMoji", image, "ShortMoji", menu=pystray.Menu(
+	pystray.MenuItem("Github Repository", after_click),
+	pystray.MenuItem("Exit", after_click)))
+
+icon.run_detached()
 
 # Variable to store the last pressed keys
 buffer = []
@@ -63,7 +81,7 @@ def on_press(key):
         return False
     # Check if the buffer ends with one of the shortcuts
     if len(buffer) > 0 and buffer[-1] == "space":
-        comparaison = buffer[:-1]
+        comparaison = "".join(buffer[:-1])
         try:
             replace_with_emoji(emojis[comparaison])
         except Exception as e:

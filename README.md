@@ -154,7 +154,7 @@ If Python is not installed or you need to update it :
     - Install Python with `brew install python@3.12`.  
     - Or to update it use `brew upgrade python@3.12`.  
 
-    Install the required libraries using pip : `pip install pyautogui pynput pyperclip`.  
+    Install the required libraries using pip : `pip install pyautogui pynput pyperclip pystray PIL webbrowser`.  
     Then run the following script in the same directory as `main.py` : `python3 main.py`.  
     On macOS, some features (like `pyautogui` and `pynput`) require accessibility permissions :  
     Open `System Preferences` > `Security & Privacy` > `Accessibility`.  
@@ -168,7 +168,7 @@ On **Fedora** type `sudo dnf install python3.12`.
     Download the latest source code from [python.org](https://www.python.org/downloads/).  
     Follow the instructions for compiling and installing.
 
-    Install the required libraries using pip : `pip install pyautogui pynput pyperclip`.  
+    Install the required libraries using pip : `pip install pyautogui pynput pyperclip pystray PIL webbrowser`.  
     Then run the following script in the same directory as `main.py` : `python3 main.py`.  
 
 <u>How to automatically launch ShortMoji on startup :</u>
