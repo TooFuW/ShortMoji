@@ -1,7 +1,3 @@
-# THE LATEST VERSION (v1.0.0) IS A BIT UNSTABLE AT THE MOMENT, PLEASE USE THE [v0.7.0](https://github.com/TooFuW/ShortMoji/releases/tag/v0.7.0) INSTEAD !
-
----
-
 # ShortMoji [:🤓]
 
 [![Latest Release](https://img.shields.io/github/release/TooFuW/ShortMoji)](https://github.com/TooFuW/ShortMoji/releases)
@@ -149,9 +145,30 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 ## Installation
 **Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/latest) !** 🤩
 
-*If you are on MacOS or Linux I don't have an executable for you (yet !) but you can still execute the python program !*
+<u>If you are on MacOS or Linux you will have to run the python file main.py because the executable will not work :</u>
 
-How to automatically launch ShortMoji on startup:
+Make sure `Python 3.12.7` is installed on your system. You can check your Python version with `python3 --version`.  
+- **MacOS** :  
+If Python is not installed or you need to update it :  
+    - Install Homebrew (if not already installed) with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.  
+    - Install Python with `brew install python@3.12`.  
+    - Or to update it use `brew upgrade python@3.12`.  
+
+    Install the required libraries using pip : `pip install pyautogui pynput pyperclip`.  
+    Then run the following script in the same directory as `main.py` : `python3 main.py`.  
+    On macOS, some features (like `pyautogui` and `pynput`) require accessibility permissions :  
+    Open `System Preferences` > `Security & Privacy` > `Accessibility`.  
+    Add your terminal or IDE to the list of allowed apps.
+- **Linux** :  
+Use your package manager to install Python. For example :  
+On **Debian/Ubuntu** type `sudo apt update` and then `sudo apt install python3.12`.  
+On **Fedora** type `sudo dnf install python3.12`.  
+
+    If the latest version is not available via your package manager, you can install Python manually :  
+    Download the latest source code from [python.org](https://www.python.org/downloads/).  
+    Follow the instructions for compiling and installing.
+
+<u>How to automatically launch ShortMoji on startup :</u>
 - **Windows** :  
 Press `⊞ Win`+`R` and type `shell:startup`.  
 Then create a shortcut (`Right-click` -> `New` -> `Shortcut`),  

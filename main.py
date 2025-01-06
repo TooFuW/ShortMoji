@@ -38,12 +38,15 @@ def replace_with_emoji(emoji):
 # Function to be called when a key is pressed
 def on_press(key):
     global buffer
-    # Getting the key
     try:
-        buffer.append(key.char)
+        # Getting the key when it's a simple character (like "a", "b", "c", "!"...)
+        if len(str(key.char)) == 1:
+            buffer.append(str(key.char))
     except:
         try:
-            buffer.append(key.name)
+            # Getting the key when it's a control/modifier key that why may be using later in the function
+            if str(key.name) in ["space", "backspace", "esc"]:
+                buffer.append(str(key.name))
         except:
             return
     # The backspace key deletes the last character (plus itself) in the buffer
@@ -54,17 +57,15 @@ def on_press(key):
         buffer.pop()
     # Keep only up to 7 characters if it looks like a shortcut
     if len(buffer) > 7 or (len(buffer) > 0 and (buffer[0] != ":" and buffer[0] != "esc")):
-        buffer.pop(0)
+        buffer = []
     # Close the program if the user clicks 2 times on the escape key
     if buffer[-2::] == ["esc", "esc"]:
         return False
     # Check if the buffer ends with one of the shortcuts
     if len(buffer) > 0 and buffer[-1] == "space":
-        comparaison = ""
-        for char in buffer[0:-1]:
-            comparaison += char
+        comparaison = buffer[:-1]
         try:
-            replace_with_emoji(emojis[comparaison + " "])
+            replace_with_emoji(emojis[comparaison])
         except Exception as e:
             pass
 
