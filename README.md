@@ -1,3 +1,7 @@
+# THE LATEST VERSION (v1.0.0) IS A BIT UNSTABLE AT THE MOMENT, PLEASE USE THE [v0.7.0](https://github.com/TooFuW/ShortMoji/releases/tag/v0.7.0) INSTEAD !
+
+---
+
 # ShortMoji [:🤓]
 
 [![Latest Release](https://img.shields.io/github/release/TooFuW/ShortMoji)](https://github.com/TooFuW/ShortMoji/releases)
