@@ -17,7 +17,7 @@ else:
     base_path = os.path.abspath(".")
 
 # Create the tray icon
-icon_path = os.path.join(base_path, 'img/icon.png')
+icon_path = os.path.join(base_path, 'img/icon_transparent.png')
 image = Image.open(icon_path)
 
 def after_click(icon, query):

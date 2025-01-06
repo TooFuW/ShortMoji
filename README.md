@@ -10,136 +10,142 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 ## Keyboard Shortcuts
 
 <details>
-<summary>(Click here to see the full list) 126 SHORTCUTS FOR 126 DIFFERENT EMOJIS ! 🤪</summary>
+<summary>(Click here to see the full list) 130 SHORTCUTS FOR 130 UNIQUE EMOJIS ! 🤪</summary>
 
 | Shortcut | Émoji |
 |-|-|
-| `:gri ` | 😀 |
-| `:smi ` | 😄 |
-| `:la `  | 😆 |
-| `:ro `  | 🤣 |
-| `:sl `  | 🙂 |
-| `:wi `  | 😉 |
-| `:in `  | 😇 |
-| `:sm `  | 😃 |
-| `:gr `  | 😁 |
-| `:sw `  | 😅 |
-| `:jo `  | 😂 |
-| `:up `  | 🙃 |
-| `:bl `  | 😊 |
-| `:3h `  | 🥰 |
-| `:st `  | 🤩 |
-| `:kis ` | 😗 |
-| `:kisc `| 😚 |
-| `:te `  | 🥲 |
-| `:hea ` | 😍 |
-| `:ki `  | 😘 |
-| `:rel ` | ☺️ |
-| `:kiss `| 😙 |
-| `:yu `  | 😋 |
-| `:stuw `| 😜 |
-| `:stuc `| 😝 |
-| `:stu ` | 😛 |
-| `:za `  | 🤪 |
-| `:mo `  | 🤑 |
-| `:hu `  | 🤗 |
-| `:sh `  | 🤫 |
-| `:ha `  | 🤭 |
-| `:th `  | 🤔 |
-| `:zi `  | 🤐 |
-| `:ner ` | 😐 |
-| `:no `  | 😶 |
-| `:smir `| 😏 |
-| `:rol ` | 🙄 |
-| `:fa `  | 😮‍💨 |
-| `:ra `  | 🤨 |
-| `:exp ` | 😑 |
-| `:fac ` | 😶‍🌫️ |
-| `:un `  | 😒 |
-| `:grim `| 😬 |
-| `:ly `  | 🤥 |
-| `:re `  | 😌 |
-| `:slee `| 😪 |
-| `:sle ` | 😴 |
-| `:pe `  | 😔 |
-| `:dr `  | 🤤 |
-| `:ma `  | 😷 |
-| `:ba `  | 🤕 |
-| `:vo `  | 🤮 |
-| `:ho `  | 🥵 |
-| `:wo `  | 🥴 |
-| `:sp `  | 😵‍💫 |
-| `:the ` | 🤒 |
-| `:na `  | 🤢 |
-| `:sn `  | 🤧 |
-| `:co `  | 🥶 |
-| `:di `  | 😵 |
-| `:ex `  | 🤯 |
-| `:cow ` | 🤠 |
-| `:dis ` | 🥸 |
-| `:pa `  | 🥳 |
-| `:su `  | 😎 |
-| `:ne `  | 🤓 |
-| `:mon ` | 🧐 |
-| `:con ` | 😕 |
-| `:sli ` | 🙁 |
-| `:op `  | 😮 |
-| `:as `  | 😲 |
-| `:pl `  | 🥺 |
-| `:an `  | 😧 |
-| `:col ` | 😰 |
-| `:cr `  | 😢 |
-| `:sc `  | 😱 |
-| `:per ` | 😣 |
-| `:swe ` | 😓 |
-| `:ti `  | 😫 |
-| `:wor ` | 😟 |
-| `:fr `  | ☹️ |
-| `:hus ` | 😯 |
-| `:fl `  | 😳 |
-| `:fro ` | 😦 |
-| `:fe `  | 😨 |
-| `:disr `| 😥 |
-| `:so `  | 😭 |
-| `:conf `| 😖 |
-| `:disa `| 😞 |
-| `:we `  | 😩 |
-| `:ya `  | 🥱 |
-| `:tr `  | 😤 |
-| `:ang ` | 😠 |
-| `:imps `| 😈 |
-| `:sk `  | 💀 |
-| `:po `  | 😡 |
-| `:cu `  | 🤬 |
-| `:im `  | 👿 |
-| `:cro ` | ☠️ |
-| `:poo ` | 💩 |
-| `:og `  | 👹 |
-| `:gh `  | 👻 |
-| `:inv ` | 👾 |
-| `:cl `  | 🤡 |
-| `:gob ` | 👺 |
-| `:al `  | 👽 |
-| `:rob ` | 🤖 |
-| `:cs `  | 😺 |
-| `:cj `  | 😹 |
-| `:csm ` | 😼 |
-| `:csc ` | 🙀 |
-| `:cp `  | 😾 |
-| `:csmi `| 😸 |
-| `:ch `  | 😻 |
-| `:ck `  | 😽 |
-| `:cc `  | 😿 |
-| `:se `  | 🙈 |
-| `:spe ` | 🙊 |
-| `:hear `| 🙉 |
-| `:he `  | ❤️ |
-| `:tu `  | 👍 |
-| `:pr `  | 🙏 |
-| `:go `  | 🐐 |
-| `:fi `  | 🔥 |
-| `:moy ` | 🗿 |
-| `:spa ` | ✨ |
+| `:gri `  | 😀 |
+| `:smi `  | 😄 |
+| `:la `   | 😆 |
+| `:ro `   | 🤣 |
+| `:sl `   | 🙂 |
+| `:wi `   | 😉 |
+| `:in `   | 😇 |
+| `:sm `   | 😃 |
+| `:gr `   | 😁 |
+| `:sw `   | 😅 |
+| `:jo `   | 😂 |
+| `:up `   | 🙃 |
+| `:bl `   | 😊 |
+| `:3h `   | 🥰 |
+| `:st `   | 🤩 |
+| `:kis `  | 😗 |
+| `:kisc ` | 😚 |
+| `:te `   | 🥲 |
+| `:hea `  | 😍 |
+| `:ki `   | 😘 |
+| `:rel `  | ☺️ |
+| `:kiss ` | 😙 |
+| `:yu `   | 😋 |
+| `:stuw ` | 😜 |
+| `:stuc ` | 😝 |
+| `:stu `  | 😛 |
+| `:za `   | 🤪 |
+| `:mo `   | 🤑 |
+| `:hu `   | 🤗 |
+| `:sh `   | 🤫 |
+| `:ha `   | 🤭 |
+| `:th `   | 🤔 |
+| `:zi `   | 🤐 |
+| `:ner `  | 😐 |
+| `:no `   | 😶 |
+| `:smir ` | 😏 |
+| `:rol `  | 🙄 |
+| `:fa `   | 😮‍💨 |
+| `:ra `   | 🤨 |
+| `:exp `  | 😑 |
+| `:fac `  | 😶‍🌫️ |
+| `:un `   | 😒 |
+| `:grim ` | 😬 |
+| `:ly `   | 🤥 |
+| `:re `   | 😌 |
+| `:slee ` | 😪 |
+| `:sle `  | 😴 |
+| `:pe `   | 😔 |
+| `:dr `   | 🤤 |
+| `:ma `   | 😷 |
+| `:ba `   | 🤕 |
+| `:vo `   | 🤮 |
+| `:ho `   | 🥵 |
+| `:wo `   | 🥴 |
+| `:sp `   | 😵‍💫 |
+| `:the `  | 🤒 |
+| `:na `   | 🤢 |
+| `:sn `   | 🤧 |
+| `:co `   | 🥶 |
+| `:di `   | 😵 |
+| `:ex `   | 🤯 |
+| `:cow `  | 🤠 |
+| `:dis `  | 🥸 |
+| `:pa `   | 🥳 |
+| `:su `   | 😎 |
+| `:ne `   | 🤓 |
+| `:mon `  | 🧐 |
+| `:con `  | 😕 |
+| `:sli `  | 🙁 |
+| `:op `   | 😮 |
+| `:as `   | 😲 |
+| `:pl `   | 🥺 |
+| `:an `   | 😧 |
+| `:col `  | 😰 |
+| `:cr `   | 😢 |
+| `:sc `   | 😱 |
+| `:per `  | 😣 |
+| `:swe `  | 😓 |
+| `:ti `   | 😫 |
+| `:wor `  | 😟 |
+| `:fr `   | ☹️ |
+| `:hus `  | 😯 |
+| `:fl `   | 😳 |
+| `:fro `  | 😦 |
+| `:fe `   | 😨 |
+| `:disr ` | 😥 |
+| `:so `   | 😭 |
+| `:conf ` | 😖 |
+| `:disa ` | 😞 |
+| `:we `   | 😩 |
+| `:ya `   | 🥱 |
+| `:tr `   | 😤 |
+| `:ang `  | 😠 |
+| `:imps ` | 😈 |
+| `:sk `   | 💀 |
+| `:po `   | 😡 |
+| `:cu `   | 🤬 |
+| `:im `   | 👿 |
+| `:cro `  | ☠️ |
+| `:poo `  | 💩 |
+| `:og `   | 👹 |
+| `:gh `   | 👻 |
+| `:inv `  | 👾 |
+| `:cl `   | 🤡 |
+| `:gob `  | 👺 |
+| `:al `   | 👽 |
+| `:rob `  | 🤖 |
+| `:cs `   | 😺 |
+| `:cj `   | 😹 |
+| `:csm `  | 😼 |
+| `:csc `  | 🙀 |
+| `:cp `   | 😾 |
+| `:csmi ` | 😸 |
+| `:ch `   | 😻 |
+| `:ck `   | 😽 |
+| `:cc `   | 😿 |
+| `:se `   | 🙈 |
+| `:spe `  | 🙊 |
+| `:hear ` | 🙉 |
+| `:he `   | ❤️ |
+| `:lo `   | 💌 |
+| `:gi `   | 💝 |
+| `:heart `| 💗 |
+| `:rev `  | 💞 |
+| `:tu `   | 👍 |
+| `:pr `   | 🙏 |
+| `:go `   | 🐐 |
+| `:fi `   | 🔥 |
+| `:moy `  | 🗿 |
+| `:spa `  | ✨ |
+
+You can find the JSON where they are stored [HERE](https://github.com/TooFuW/ShortMoji/blob/main/emojis.json)
 </details>
 
 ## Installation
@@ -216,7 +222,9 @@ Launch ShortMoji and start typing your shortcuts to see your emojis appear autom
 
 - **Fast correction** : If you misspell a shortcut, you can retype it (if you do it right away) and the emoji will still replace the shortcut ! 😎
 
-- **For the nerds** : ShortMoji is a lightweight utility program that doesn't slow down your system. And if you want, you can easily close the program by clicking your Escape key twice ! 🤓
+- **Lightweight program** : ShortMoji is a lightweight utility program that doesn't slow down your system. And if you want, you can easily close the program by clicking your Escape key twice ! 🤓
+
+- **System tray icon** : The program also has a system tray icon that you can click to see the repository or close the program ! 💻
 
 - **Audience** : Whether you're a developper looking for efficiency, a casual user who enjoys using emojis or a Discord user who's already familiar with emoji shortcuts, ShortMoji is the perfect tool for you ! 🤠
 
