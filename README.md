@@ -1,9 +1,19 @@
-# ShortMoji [:🤓]
+<h1 align="center">ShortMoji [:🤓]</h1>
 
-[![Latest Release](https://img.shields.io/github/release/TooFuW/ShortMoji)](https://github.com/TooFuW/ShortMoji/releases)
-[![Last Commit](https://img.shields.io/github/last-commit/TooFuW/ShortMoji)](https://github.com/TooFuW/ShortMoji/commits/main)
-[![GNU License](https://img.shields.io/badge/License-GNU-blue.svg)](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/TooFuW/ShortMoji)](https://github.com/TooFuW/ShortMoji/stargazers)
+<p align="center">
+    <a href="https://github.com/TooFuW/ShortMoji/releases">
+        <img src="https://img.shields.io/github/release/TooFuW/ShortMoji" alt="Latest Release">
+    </a>
+    <a href="https://github.com/TooFuW/ShortMoji/commits/main">
+        <img src="https://img.shields.io/github/last-commit/TooFuW/ShortMoji" alt="Latest Commit">
+    </a>
+    <a href="https://github.com/TooFuW/ShortMoji/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-GNU-blue.svg" alt="GNU License">
+    </a>
+    <a href="https://github.com/TooFuW/ShortMoji/stargazers">
+        <img src="https://img.shields.io/github/stars/TooFuW/ShortMoji" alt="GitHub stars">
+    </a>
+</p>
 
 ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts (similar to Discord's emoji system). 🔥
 
@@ -149,11 +159,16 @@ You can find the JSON where they are stored [HERE](https://github.com/TooFuW/Sho
 </details>
 
 ## Installation
-**Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/latest) !** 🤩
+### Download the latest version [HERE](https://github.com/TooFuW/ShortMoji/releases/latest) ! 🤩
 
-<u>If you are on MacOS or Linux you will have to run the python file `main.py` because the executable will not work :</u>
+### If you are on MacOS or Linux you will have to run the python file `main.py` because the executable will not work (but you can also execute the python file even if you are on Windows) :
 
-Make sure `Python 3.12.7` is installed on your system. You can check your Python version with `python3 --version`.  
+Download the source code and make sure `Python 3.12.7` is installed on your system. You can check your Python version with `python3 --version`.  
+- **Windows** :  
+If Python is not installed or you need to update it, download the version 3.12 or later at [python.org](https://www.python.org/downloads/).  
+Once python is installed, install the required libraries using pip : `pip install pyautogui pynput pyperclip pystray PIL webbrowser`.  
+Then run the following script in the same directory as `main.py` : `python3 main.py`.  
+
 - **MacOS** :  
 If Python is not installed or you need to update it :  
     - Install Homebrew (if not already installed) with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.  
@@ -162,6 +177,7 @@ If Python is not installed or you need to update it :
 
     Install the required libraries using pip : `pip install pyautogui pynput pyperclip pystray PIL webbrowser`.  
     Then run the following script in the same directory as `main.py` : `python3 main.py`.  
+
     On macOS, some features (like `pyautogui` and `pynput`) require accessibility permissions :  
     Open `System Preferences` > `Security & Privacy` > `Accessibility`.  
     Add your terminal or IDE to the list of allowed apps.
@@ -177,13 +193,13 @@ On **Fedora** type `sudo dnf install python3.12`.
     Install the required libraries using pip : `pip install pyautogui pynput pyperclip pystray PIL webbrowser`.  
     Then run the following script in the same directory as `main.py` : `python3 main.py`.  
 
-<u>How to automatically launch ShortMoji on startup :</u>
+### How to automatically launch ShortMoji on startup :
 - **Windows** :  
 Press `⊞ Win`+`R` and type `shell:startup`.  
 Then create a shortcut (`Right-click` -> `New` -> `Shortcut`),  
 And paste the path to `ShortMoji.exe` (for example `C:\Users\User\Downloads\ShortMoji.exe`).  
 Click `Enter`.
-- **MacOS** :  
+<!--- **MacOS** :  
 Click the Apple logo in the top left corner and select `System Preferences`.  
 Click on `Users & Groups`.  
 Select the user account you want to add the application to.  
@@ -202,7 +218,7 @@ Create a new file called `shortmoji.desktop` with the following contents:
     NoDisplay=false
     X-GNOME-Autostart-enabled=true
     ```
-    Replace `/path/to/shortmoji` with the path to the `ShortMoji` executable.
+    Replace `/path/to/shortmoji` with the path to the `ShortMoji` executable.-->
 
 *Your antivirus might flag the program as a virus on the first run but it's a false positive (you can check the code, everything is in main.py) don't worry !* 😅
 
@@ -213,7 +229,7 @@ Type a shortcut from the list [HERE](https://github.com/TooFuW/ShortMoji?tab=rea
 
 *The program may not always work in system applications (e.g. Task Manager) because the OS blocks keyboard access at that time*
 
-**If you want to close the program, just press your `escape` key twice !**
+**If you want to close the program, just press your `escape` key twice or close it from the system tray !**
 
 ## Usage and Features
 Launch ShortMoji and start typing your shortcuts to see your emojis appear automatically ! ✨
@@ -224,11 +240,11 @@ Launch ShortMoji and start typing your shortcuts to see your emojis appear autom
 
 - **Lightweight program** : ShortMoji is a lightweight utility program that doesn't slow down your system. And if you want, you can easily close the program by clicking your Escape key twice ! 🤓
 
-- **System tray icon** : The program also has a system tray icon that you can click to see the repository or close the program ! 💻
+- **System tray** : The program also has a system tray icon that you can click to see the repository or close the program ! 💻
 
 - **Audience** : Whether you're a developper looking for efficiency, a casual user who enjoys using emojis or a Discord user who's already familiar with emoji shortcuts, ShortMoji is the perfect tool for you ! 🤠
 
-- **Support** : I'm committed to regularly update ShortMoji with new emojis and features. Contributions are welcome, submit pull requests or suggest ideas to help it grow ! 🔥
+- **Support** : I'm committed to regularly update ShortMoji with new emojis and features. Contributions are welcome, submit [pull requests](https://github.com/TooFuW/ShortMoji/compare), suggest ideas to help it grow by creating an [issue](https://github.com/TooFuW/ShortMoji/issues/new) or even send me an [email](mailto:eyrianmuet@proton.me) ! 🔥
 
 ## Licence
 Free project under the [GNU license](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE). Do what you want with it! 🚀
