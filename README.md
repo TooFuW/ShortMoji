@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="img/icon.png" width="100" height="100">
+</p>
+
 <h1 align="center">ShortMoji [:🤓]</h1>
 
 <p align="center">
@@ -15,12 +19,12 @@
     </a>
 </p>
 
-ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts (similar to Discord's emoji system). 🔥
+ShortMoji makes it easy to insert emojis and special characters anywhere with simple keyboard shortcuts (similar to Discord's emoji system). 🔥
 
 ## Keyboard Shortcuts
 
 <details>
-<summary>(Click here to see the full list) 130 SHORTCUTS FOR 130 UNIQUE EMOJIS ! 🤪</summary>
+<summary>(Click here to see the full list) 142 SHORTCUTS FOR 142 UNIQUE EMOJIS AND SPECIAL CHARACTERS ! 🤪</summary>
 
 | Shortcut | Émoji |
 |-|-|
@@ -39,13 +43,12 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 | `:bl `   | 😊 |
 | `:3h `   | 🥰 |
 | `:st `   | 🤩 |
-| `:kis `  | 😗 |
 | `:kisc ` | 😚 |
 | `:te `   | 🥲 |
 | `:hea `  | 😍 |
 | `:ki `   | 😘 |
 | `:rel `  | ☺️ |
-| `:kiss ` | 😙 |
+| `:kis `  | 😙 |
 | `:yu `   | 😋 |
 | `:stuw ` | 😜 |
 | `:stuc ` | 😝 |
@@ -143,17 +146,33 @@ ShortMoji makes it easy to insert emojis anywhere with simple keyboard shortcuts
 | `:se `   | 🙈 |
 | `:spe `  | 🙊 |
 | `:hear ` | 🙉 |
-| `:he `   | ❤️ |
 | `:lo `   | 💌 |
 | `:gi `   | 💝 |
 | `:heart `| 💗 |
 | `:rev `  | 💞 |
+| `:he `   | ❤️ |
+| `:kiss ` | 💋 |
+| `:wa `   | 👋 |
+| `:fu `   | 🖕 |
 | `:tu `   | 👍 |
+| `:td `   | 👎 |
 | `:pr `   | 🙏 |
+| `:ey `   | 👀 |
 | `:go `   | 🐐 |
 | `:fi `   | 🔥 |
 | `:moy `  | 🗿 |
 | `:spa `  | ✨ |
+| `:au `   | ⬆️ |
+| `:ar `   | ➡️ |
+| `:ad `   | ⬇️ |
+| `:ale `  | ⬅️ |
+| `:che `  | ✅ |
+| `:x `    | ❌ |
+
+| Shortcut | Special character |
+|-|-|
+| `:>> `   | → |
+| `:<<=> `   | ← |
 
 You can find the JSON where they are stored [HERE](https://github.com/TooFuW/ShortMoji/blob/main/emojis.json)
 </details>
@@ -199,7 +218,7 @@ Press `⊞ Win`+`R` and type `shell:startup`.
 Then create a shortcut (`Right-click` -> `New` -> `Shortcut`),  
 And paste the path to `ShortMoji.exe` (for example `C:\Users\User\Downloads\ShortMoji.exe`).  
 Click `Enter`.
-<!--- **MacOS** :  
+- **MacOS** :  
 Click the Apple logo in the top left corner and select `System Preferences`.  
 Click on `Users & Groups`.  
 Select the user account you want to add the application to.  
@@ -218,12 +237,12 @@ Create a new file called `shortmoji.desktop` with the following contents:
     NoDisplay=false
     X-GNOME-Autostart-enabled=true
     ```
-    Replace `/path/to/shortmoji` with the path to the `ShortMoji` executable.-->
+    Replace `/path/to/shortmoji` with the path to the `ShortMoji` executable.
 
 *Your antivirus might flag the program as a virus on the first run but it's a false positive (you can check the code, everything is in main.py) don't worry !* 😅
 
 ## How to use it
-Type a shortcut from the list [HERE](https://github.com/TooFuW/ShortMoji?tab=readme-ov-file#keyboard-shortcuts), press `space` and it will automatically be replaced by the corresponding emoji, it's that simple ! 🥳
+Type a shortcut from the list [HERE](https://github.com/TooFuW/ShortMoji?tab=readme-ov-file#keyboard-shortcuts), press `space` and it will automatically be replaced by the corresponding emoji or special character, it's that simple ! 🥳
 
 ![Gif](https://github.com/TooFuW/ShortMoji/blob/main/img/ShortMojiGif.gif)
 
@@ -236,7 +255,7 @@ Launch ShortMoji and start typing your shortcuts to see your emojis appear autom
 
 - **Easy shortcuts** : If you are already using Discord then it should be easy for you to start using ShortMoji, else GO LEARN THE SHORTCUTS ! 🗿
 
-- **Fast correction** : If you misspell a shortcut, you can retype it (if you do it right away) and the emoji will still replace the shortcut ! 😎
+- **Fast correction** : If you misspell a shortcut, you can retype it (if you do it right away) and it will still be replaced ! 😎
 
 - **Lightweight program** : ShortMoji is a lightweight utility program that doesn't slow down your system. And if you want, you can easily close the program by clicking your Escape key twice ! 🤓
 
