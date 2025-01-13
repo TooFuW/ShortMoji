@@ -172,7 +172,7 @@ ShortMoji makes it easy to insert emojis and special characters anywhere with si
 | Shortcut | Special character |
 |-|-|
 | `:>> `   | → |
-| `:<<=> `   | ← |
+| `:<< `   | ← |
 
 You can find the JSON where they are stored [HERE](https://github.com/TooFuW/ShortMoji/blob/main/emojis.json)
 </details>
