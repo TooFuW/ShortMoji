@@ -24,7 +24,7 @@ ShortMoji makes it easy to insert emojis and special characters anywhere with si
 ## Keyboard Shortcuts
 
 <details>
-<summary>(Click here to see the full list) 142 SHORTCUTS FOR 142 UNIQUE EMOJIS AND SPECIAL CHARACTERS ! 🤪</summary>
+<summary>(Click here to see the full list) 145 SHORTCUTS FOR 145 UNIQUE EMOJIS AND SPECIAL CHARACTERS ! 🤪</summary>
 
 | Shortcut | Émoji |
 |-|-|
