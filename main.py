@@ -8,7 +8,7 @@ import pystray
 from PIL import Image
 import webbrowser
 
-# pyinstaller --onefile --windowed --icon=img/icon.ico --name="ShortMoji" --add-data "emojis.json:." --add-data "img/icon.png:img" main.py
+# pyinstaller --onefile --windowed --icon=img/icon.ico --name="ShortMoji" --add-data "emojis.json:." --add-data "img/icon_transparent.png:img" main.py
 
 # Dynamic path
 if getattr(sys, 'frozen', False):
