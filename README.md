@@ -251,7 +251,7 @@ Type a shortcut from the list [HERE](https://github.com/TooFuW/ShortMoji?tab=rea
 
 *The program may not always work in system applications (e.g. Task Manager) because the OS blocks keyboard access at that time*
 
-**If you want to close the program, just press your `escape` key twice or close it from the system tray !**
+**If you want to close the program, you can close it from the system tray !**
 
 ## Usage and Features
 Launch ShortMoji and start typing your shortcuts to see your emojis appear automatically ! ✨
@@ -260,7 +260,7 @@ Launch ShortMoji and start typing your shortcuts to see your emojis appear autom
 
 - **Fast correction** : If you misspell a shortcut, you can retype it (if you do it right away) and it will still be replaced ! 😎
 
-- **Lightweight program** : ShortMoji is a lightweight utility program that doesn't slow down your system. And if you want, you can easily close the program by clicking your Escape key twice ! 🤓
+- **Lightweight program** : ShortMoji is a lightweight utility program that doesn't slow down your system. And if you want, you can easily close the program with the icon in the system tray ! 🤓
 
 - **System tray** : The program also has a system tray icon that you can click to see the repository or close the program ! 💻
 

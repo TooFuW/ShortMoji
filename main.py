@@ -24,9 +24,8 @@ def after_click(icon, query):
     if str(query) == "Github Repository":
         webbrowser.open("https://github.com/TooFuW/ShortMoji")
     elif str(query) == "Exit":
-        kboard.tap(Key.esc)
-        kboard.tap(Key.esc)
         icon.stop()
+        os._exit(0)
 
 icon = pystray.Icon("ShortMoji", image, "ShortMoji", menu=pystray.Menu(
 	pystray.MenuItem("Github Repository", after_click),
@@ -67,7 +66,7 @@ def on_press(key):
     except:
         try:
             # Getting the key when it's a control/modifier key that why may be using later in the function
-            if str(key.name) in ["space", "backspace", "esc"]:
+            if str(key.name) in ["space", "backspace"]:
                 buffer.append(str(key.name))
         except:
             return
@@ -78,12 +77,8 @@ def on_press(key):
     elif len(buffer) > 0 and buffer[-1] == "backspace":
         buffer.pop()
     # Keep only up to 7 characters if it looks like a shortcut
-    if len(buffer) > 7 or (len(buffer) > 0 and (buffer[0] != ":" and buffer[0] != "esc")):
+    if len(buffer) > 7 or (len(buffer) > 0 and (buffer[0] != ":")):
         buffer = []
-    # Close the program if the user clicks 2 times on the escape key
-    if buffer[-2::] == ["esc", "esc"]:
-        icon.stop()
-        return False
     # Check if the buffer ends with one of the shortcuts
     if len(buffer) > 0 and buffer[-1] == "space":
         comparaison = "".join(buffer[:-1])
