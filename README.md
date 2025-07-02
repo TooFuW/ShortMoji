@@ -176,6 +176,8 @@ ShortMoji makes it easy to insert emojis and special characters anywhere with si
 | `:<< `   | ← |
 | `:à `    | À |
 | `:é `    | É |
+| `:pi `   | π |
+| `:si `   | σ |
 
 You can find the JSON where they are stored [HERE](https://github.com/TooFuW/ShortMoji/blob/main/emojis.json)
 </details>
