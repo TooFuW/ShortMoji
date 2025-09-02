@@ -271,4 +271,4 @@ Launch ShortMoji and start typing your shortcuts to see your emojis appear autom
 - **Support** : I'm committed to regularly update ShortMoji with new emojis and features. Contributions are welcome, submit [pull requests](https://github.com/TooFuW/ShortMoji/compare), suggest ideas to help it grow by creating an [issue](https://github.com/TooFuW/ShortMoji/issues/new) or even send me an [email](mailto:eyrianmuet@proton.me) ! 🔥
 
 ## Licence
-Free project under the [GNU license](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE). Do what you want with it! 🚀
+Free project under the [MIT license](https://github.com/TooFuW/ShortMoji/blob/main/LICENSE). Do what you want with it! 🚀
