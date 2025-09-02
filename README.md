@@ -12,7 +12,7 @@
         <img src="https://img.shields.io/github/last-commit/TooFuW/ShortMoji" alt="Latest Commit">
     </a>
     <a href="https://github.com/TooFuW/ShortMoji/blob/main/LICENSE">
-        <img src="https://img.shields.io/badge/License-GNU-blue.svg" alt="GNU License">
+        <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="GNU License">
     </a>
     <a href="https://github.com/TooFuW/ShortMoji/stargazers">
         <img src="https://img.shields.io/github/stars/TooFuW/ShortMoji" alt="GitHub stars">
